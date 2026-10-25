@@ -1,6 +1,6 @@
 DARK AIM LOCK v11.2
 
-A Roblox Lua aim-lock UI designed for testing in your own Roblox Studio experience.
+A Roblox Lua aim-lock UI experience.
 
 Features
 
