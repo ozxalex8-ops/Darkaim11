@@ -1,25 +1,3 @@
--- ModuleScript name: DarkAimLock
--- Place in ReplicatedStorage. For use in your own Roblox Studio experience.
-
-return function()
-    --[[
-        DARK AIM LOCK v11.2 | aim lock only
-        Location: StarterPlayer > StarterPlayerScripts (LocalScript)
-        Optional: ServerScriptService > DarkAimProSettingsServer saves the settings (without it nothing is saved).
-        Disable the older "DarkAimPro" LocalScript: this one replaces it (its window is closed automatically).
-
-        WHAT IT DOES
-          Locks the camera on a target. Aim part: Head / Torso / Root.
-          Lock style "Hard": the camera is set exactly on the aim part every frame (no smoothing, no overshoot).
-          Lock style "Smooth": the camera eases toward the aim part (Smoothness slider).
-
-        WHY THE LOCK STAYS FIXED WHEN THE TARGET JUMPS
-          * The aim point is the real position of the aim part, read at the very end of the frame
-            (after animations and character updates), so it never lags one frame behind.
-          * Prediction only uses the HORIZONTAL speed of the target. A jump (vertical speed) never shifts the aim point.
-          * "Hard" has no smoothing, so nothing can trail behind a falling or rising target.
-
-        KEYS (changeable in the KEYS tab)
           E  lock on / off        Q / Z  next / previous target        K  hide the window
     ]]
 
