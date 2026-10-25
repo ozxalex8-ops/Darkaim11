@@ -1,17 +1,38 @@
-DARK AIM LOCK v11.2
+free script ui work on rivals and 3 v 3 tribes and blockspin
+==============================================================
+# DarkAimLock v11.2 — Complete Menu
 
-A Roblox Lua aim-lock UI experience.
+**DarkAimLock v11.2** is a customizable Roblox Luau interface designed for lock-on camera controls, target tracking.
 
-Features
+## 🎯 Main Menu
+- Central control panel with organized sections.
+- Enable or disable supported features.
+- Quick access to the main settings.
+- Display the current lock-on status.
 
-Customizable aim-lock interface.
+## 🎯 Target & Lock-On Settings
+- Configure target selection and camera lock behavior.
+- Switch between available targets.
+- Enable or disable supported target filters.
+- Configure team and friend filtering options.
 
-Aim part selection: Head, Torso, or Root.
+## 👁️ HUD & Target Information
+- On-screen status indicators.
+- Display target information supported by the script.
+- Toggle available HUD elements.
 
-Hard and Smooth lock styles.
+## ⚙️ Settings Menu
+- Customize supported lock-on options.
+- Configure available interface preferences.
+- Save and load settings when the required server-side component is installed.
+- Restore default values if supported by the implementation.
 
-Configurable target selection and field of view.
+## 📱 Responsive UI
+- Organized controls for desktop and mobile screens.
+- Readable labels and accessible buttons.
+- Convenient navigation between menu sections.
 
-Customizable keybinds.
-
-Target HUD and FOV display.
+## 🛠️ Technical Information
+- **Version:** 11.2
+- **Language:** Roblox Luau.
+- **Platform:** Roblox 
