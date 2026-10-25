@@ -1,6 +1,3 @@
-          E  lock on / off        Q / Z  next / previous target        K  hide the window
-    ]]
-
     local Players = game:GetService("Players")
     local UserInputService = game:GetService("UserInputService")
     local RunService = game:GetService("RunService")
